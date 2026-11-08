@@ -1,12 +1,12 @@
 
 #!/bin/bash
-# Indique que ce script doit être exécuté avec Bash.
+# Permet d'exécuter le script avec Bash.
 
 set -e
-# Arrête le script immédiatement si une commande échoue.
+# Arrête le script si une commande rencontre une erreur.
 
 SITE_DIR="$HOME/serveur/site-equipe"
-# Définit le chemin du dossier contenant le site de notre équipe.
+# Indique le chemin du dossier du site de notre équipe.
 
 if [ ! -d "$SITE_DIR" ]; then
 # Vérifie si le dossier du site existe.
@@ -15,19 +15,19 @@ if [ ! -d "$SITE_DIR" ]; then
     # Affiche un message si le dossier est introuvable.
 
     exit 1
-    # Arrête le script avec un code d'erreur.
+    # Arrête le script en cas d'erreur.
 
 fi
 # Termine la vérification du dossier.
 
 cd "$SITE_DIR"
-# Entre dans le dossier du site de notre équipe.
+# Se déplace dans le dossier du site.
 
 git pull
 # Récupère les dernières modifications depuis GitHub.
 
 cp index.html style.css /var/www/html/
-# Copie les fichiers HTML et CSS dans le dossier du serveur web.
+# Copie les fichiers HTML et CSS vers le serveur web.
 
 echo "Déploiement terminé avec succès !"
-# Affiche un message pour confirmer la fin du déploiement.
+# Affiche un message de confirmation.
