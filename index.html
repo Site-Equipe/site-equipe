@@ -1,73 +1,49 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="utf-8">
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#102521">
-  <title>Atelier des possibles — Site d’équipe</title>
+  <title>LesPtitChousB1 — Notre équipe</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="topbar">
-    <a class="brand" href="#accueil" aria-label="Accueil Atelier des possibles">
-      <span class="brand-mark">A</span>
-      <span>atelier<span class="brand-light">des possibles</span></span>
-    </a>
-    <nav aria-label="Navigation principale">
-      <a href="#projet">Le projet</a>
-      <a href="#equipe">L’équipe</a>
-      <a class="nav-cta" href="#contact">Nous contacter <span aria-hidden="true">↗</span></a>
+  <header class="entete" id="accueil">
+    <nav class="navigation">
+      <a class="nom-site" href="#accueil">LesPtitChousB1</a>
+      <div>
+        <a href="#equipe">L'équipe</a>
+        <a href="#projet">Notre projet</a>
+      </div>
     </nav>
+    <section class="intro">
+      <p class="petit-titre">BACHELOR DÉVELOPPEMENT IA · ECE</p>
+      <h1>On apprend<br>à construire <span>le web.</span></h1>
+      <p class="description">Nous sommes une équipe d'étudiants en première année. Voici notre groupe et notre premier site réalisé ensemble.</p>
+      <a class="bouton" href="#equipe">Rencontrer l'équipe ↓</a>
+    </section>
+    <div class="deco" aria-hidden="true"><span></span><span></span><span></span></div>
+    <p class="bas-entete">UN PROJET DE GROUPE · 2026</p>
   </header>
 
-  <main id="accueil">
-    <section class="hero">
-      <div class="hero-copy">
-        <p class="eyebrow"><span></span> SITE D’ÉQUIPE · PROJET COLLECTIF</p>
-        <h1>On imagine.<br>On construit.<br><em>On partage.</em></h1>
-        <p class="intro">Une équipe curieuse, des idées qui prennent forme et l’envie de créer des projets utiles, ensemble.</p>
-        <a class="button" href="#projet">Découvrir notre projet <span aria-hidden="true">↓</span></a>
-      </div>
-      <div class="hero-art" role="img" aria-label="Illustration abstraite de formes naturelles et d’un soleil">
-        <div class="sun"></div>
-        <div class="shape shape-one"></div>
-        <div class="shape shape-two"></div>
-        <div class="shape shape-three"></div>
-        <div class="art-note">Des idées<br>en mouvement.</div>
-        <span class="art-index">01 — 03</span>
-      </div>
-      <div class="hero-foot"><span>PROJETS CRÉATIFS & NUMÉRIQUES</span><span>SCROLL POUR EXPLORER ↓</span></div>
-    </section>
-
-    <section class="project section" id="projet">
-      <div class="section-label">01 <span>—</span> NOTRE APPROCHE</div>
-      <div class="project-content">
-        <h2>Le meilleur des projets naît quand <em>chacun apporte sa pièce.</em></h2>
-        <p>Nous sommes une équipe pluridisciplinaire qui transforme les idées en expériences concrètes. Notre méthode : écouter, expérimenter, apprendre et faire mieux à chaque étape.</p>
-        <div class="values">
-          <article><span class="value-number">01</span><h3>Imaginer</h3><p>Partir d’une question et ouvrir le champ des possibles.</p></article>
-          <article><span class="value-number">02</span><h3>Créer</h3><p>Prototyper, tester et construire avec intention.</p></article>
-          <article><span class="value-number">03</span><h3>Partager</h3><p>Faire grandir le projet avec les autres.</p></article>
-        </div>
+  <main>
+    <section class="section equipe" id="equipe">
+      <div class="titre-section"><p class="numero">01 — L'ÉQUIPE</p><h2>Quatre étudiants,<br>un projet commun.</h2></div>
+      <div class="cartes">
+        <article class="carte"><div class="initiales">DD</div><h3>Dany DA SILVA</h3><p class="role">Owner</p><p>Je m'intéresse à la programmation, notamment à l'apprentissage automatique et au traitement du langage naturel.</p><a href="https://github.com/danyds7820-cmd">Voir son GitHub ↗</a></article>
+        <article class="carte"><div class="initiales vert">AH</div><h3>Arthur Harang</h3><p class="role">Développeur</p><p>J'ai envie de participer à la construction du monde de demain.</p><a href="https://github.com/arthur-hrg">Voir son GitHub ↗</a></article>
+        <article class="carte"><div class="initiales orange">AG</div><h3>Axel Grall</h3><p class="role">Étudiant</p><p>Je veux comprendre comment l'intelligence artificielle peut aider à résoudre des problèmes.</p><a href="https://github.com/Azzgar-gift">Voir son GitHub ↗</a></article>
+        <article class="carte"><div class="initiales bleu">LL</div><h3>Louis Lemire</h3><p class="role">Étudiant</p><p>Étudiant en Bachelor Développement IA à l'ECE.</p><a href="https://github.com/">Profil GitHub</a></article>
       </div>
     </section>
 
-    <section class="team section" id="equipe">
-      <div class="section-label">02 <span>—</span> L’ÉQUIPE</div>
-      <div class="team-content">
-        <h2>Des regards différents.<br><em>Une même énergie.</em></h2>
-        <p>Ce site est une première étape : un espace pour présenter notre démarche, nos idées et le travail réalisé ensemble.</p>
-        <div class="team-card"><div class="avatar">✳</div><div><strong>Notre équipe</strong><span>Créativité · Curiosité · Collaboration</span></div><span class="team-arrow">↗</span></div>
-      </div>
-    </section>
-
-    <section class="contact" id="contact">
-      <p class="eyebrow">ET SI ON FAISAIT QUELQUE CHOSE ENSEMBLE ?</p>
-      <h2>La suite s’écrit<br><em>à plusieurs.</em></h2>
-      <a class="button button-light" href="mailto:bonjour@example.com">Parlons de vos idées <span aria-hidden="true">↗</span></a>
+    <section class="projet" id="projet">
+      <p class="numero">02 — NOTRE PROJET</p>
+      <h2>Un premier site,<br>fait <span>ensemble.</span></h2>
+      <p>On a commencé par apprendre les bases du HTML et du CSS. Ensuite, on a utilisé Git et GitHub pour travailler à plusieurs et Docker pour lancer notre site dans un conteneur.</p>
+      <div class="mots"><span>HTML</span><span>CSS</span><span>GitHub</span><span>Docker</span></div>
     </section>
   </main>
 
-  <footer><a class="brand footer-brand" href="#accueil"><span class="brand-mark">A</span><span>atelier<span class="brand-light">des possibles</span></span></a><span>Un projet d’équipe, construit ensemble.</span><a href="#accueil">RETOUR EN HAUT ↑</a></footer>
+  <footer><a href="#accueil">LesPtitChousB1</a><span>Projet réalisé en groupe · ECE</span><a href="#accueil">Retour en haut ↑</a></footer>
 </body>
 </html>
