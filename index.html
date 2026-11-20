@@ -1,49 +1,73 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8">
-  <title>Notre équipe - Bachelor IA</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#102521">
+  <title>Atelier des possibles — Site d’équipe</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <h1>LesPtitChousB1</h1>
-    <p>Étudiants en Bachelor Développement IA</p>
+  <header class="topbar">
+    <a class="brand" href="#accueil" aria-label="Accueil Atelier des possibles">
+      <span class="brand-mark">A</span>
+      <span>atelier<span class="brand-light">des possibles</span></span>
+    </a>
+    <nav aria-label="Navigation principale">
+      <a href="#projet">Le projet</a>
+      <a href="#equipe">L’équipe</a>
+      <a class="nav-cta" href="#contact">Nous contacter <span aria-hidden="true">↗</span></a>
+    </nav>
   </header>
 
-  <main>
-    <section class="membre">
-  <h2>Dany DA SILVA</h2>
-  <p>Rôle dans l'équipe : OWNER</p>
-  <p>Ce qui m'intéresse dans l'IA : Les différents types de programmation m'intéressent, 
-    en particulier l'apprentissage automatique et le traitement du langage naturel.</p>
-  <a href="https://github.com/danyds7820-cmd">Mon profil GitHub</a>
-</section>
+  <main id="accueil">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow"><span></span> SITE D’ÉQUIPE · PROJET COLLECTIF</p>
+        <h1>On imagine.<br>On construit.<br><em>On partage.</em></h1>
+        <p class="intro">Une équipe curieuse, des idées qui prennent forme et l’envie de créer des projets utiles, ensemble.</p>
+        <a class="button" href="#projet">Découvrir notre projet <span aria-hidden="true">↓</span></a>
+      </div>
+      <div class="hero-art" role="img" aria-label="Illustration abstraite de formes naturelles et d’un soleil">
+        <div class="sun"></div>
+        <div class="shape shape-one"></div>
+        <div class="shape shape-two"></div>
+        <div class="shape shape-three"></div>
+        <div class="art-note">Des idées<br>en mouvement.</div>
+        <span class="art-index">01 — 03</span>
+      </div>
+      <div class="hero-foot"><span>PROJETS CRÉATIFS & NUMÉRIQUES</span><span>SCROLL POUR EXPLORER ↓</span></div>
+    </section>
 
-      <section class="membre">
-  <h2>Arthur Harang</h2>
-  <p>Rôle dans l'équipe : DEV.</p>
-  <p>Ce qui m'intéresse dans l'IA : Participer à la construction du monde de demain.</p>
-  <a href="https://github.com/arthur-hrg">Arthur-hrg</a>
-</section>
+    <section class="project section" id="projet">
+      <div class="section-label">01 <span>—</span> NOTRE APPROCHE</div>
+      <div class="project-content">
+        <h2>Le meilleur des projets naît quand <em>chacun apporte sa pièce.</em></h2>
+        <p>Nous sommes une équipe pluridisciplinaire qui transforme les idées en expériences concrètes. Notre méthode : écouter, expérimenter, apprendre et faire mieux à chaque étape.</p>
+        <div class="values">
+          <article><span class="value-number">01</span><h3>Imaginer</h3><p>Partir d’une question et ouvrir le champ des possibles.</p></article>
+          <article><span class="value-number">02</span><h3>Créer</h3><p>Prototyper, tester et construire avec intention.</p></article>
+          <article><span class="value-number">03</span><h3>Partager</h3><p>Faire grandir le projet avec les autres.</p></article>
+        </div>
+      </div>
+    </section>
 
-  <section class="membre">
-  <h2>Axel Grall</h2>
-  <p>Rôle dans l'équipe : étudiant en Bachelor Développement IA.</p>
-  <p>Ce qui m'intéresse dans l'IA : comprendre comment l'intelligence artificielle peut résoudre des problèmes.</p>
-  <a href="https://github.com/Azzgar-gift">Azzgar-gift</a>
-</section>
+    <section class="team section" id="equipe">
+      <div class="section-label">02 <span>—</span> L’ÉQUIPE</div>
+      <div class="team-content">
+        <h2>Des regards différents.<br><em>Une même énergie.</em></h2>
+        <p>Ce site est une première étape : un espace pour présenter notre démarche, nos idées et le travail réalisé ensemble.</p>
+        <div class="team-card"><div class="avatar">✳</div><div><strong>Notre équipe</strong><span>Créativité · Curiosité · Collaboration</span></div><span class="team-arrow">↗</span></div>
+      </div>
+    </section>
 
-  <section class="membre">
-  <h2>Louis Lemire</h2>
-  <p>Rôle dans l'équipe : étudiant en Bachelor Développement IA.</p>
-  <p>Ce qui m'intéresse dans l'IA : .</p>
-  <a href="https://github.com/"></a>
-</section>
+    <section class="contact" id="contact">
+      <p class="eyebrow">ET SI ON FAISAIT QUELQUE CHOSE ENSEMBLE ?</p>
+      <h2>La suite s’écrit<br><em>à plusieurs.</em></h2>
+      <a class="button button-light" href="mailto:bonjour@example.com">Parlons de vos idées <span aria-hidden="true">↗</span></a>
+    </section>
   </main>
 
-  <footer>
-    <p>Site réalisé avec Git, GitHub et VS Code</p>
-  </footer>
+  <footer><a class="brand footer-brand" href="#accueil"><span class="brand-mark">A</span><span>atelier<span class="brand-light">des possibles</span></span></a><span>Un projet d’équipe, construit ensemble.</span><a href="#accueil">RETOUR EN HAUT ↑</a></footer>
 </body>
 </html>
