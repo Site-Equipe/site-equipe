@@ -1,1 +1,53 @@
-*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#f5f3ec;color:#17251f;font-family:Arial,Helvetica,sans-serif}.entete{min-height:590px;padding:0 8%;position:relative;overflow:hidden;background:#e9eddf}.navigation{height:76px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #d1d7c5;position:relative;z-index:2}.navigation a,footer a{color:inherit;text-decoration:none}.navigation div{display:flex;gap:28px}.navigation div a{font-size:14px}.nom-site{font-weight:bold;font-size:17px}.intro{padding:78px 0 100px;max-width:590px;position:relative;z-index:1}.petit-titre,.numero{font-size:11px;font-weight:bold;letter-spacing:1.3px;color:#68775c}.intro h1{font:normal clamp(54px,8vw,88px)/.98 Georgia,serif;letter-spacing:-3px;margin:22px 0}.intro h1 span,.projet h2 span{color:#748653;font-style:italic}.description{max-width:430px;color:#586259;line-height:1.7;font-size:16px}.bouton{display:inline-block;margin-top:15px;padding:13px 17px;background:#203c31;color:#fff;text-decoration:none;font-size:13px}.deco{position:absolute;width:360px;height:360px;right:9%;top:130px;border-radius:50%;background:#d8dfc8}.deco span{position:absolute;border-radius:50%;display:block}.deco span:nth-child(1){width:150px;height:150px;right:36px;top:28px;background:#df9977}.deco span:nth-child(2){width:215px;height:170px;left:15px;bottom:18px;background:#9da978;transform:rotate(-20deg)}.deco span:nth-child(3){width:150px;height:185px;right:13px;bottom:0;background:#476653;transform:rotate(18deg)}.bas-entete{position:absolute;bottom:20px;left:8%;font-size:10px;letter-spacing:1px;color:#6a7567}.section{padding:86px 8%}.equipe{display:grid;grid-template-columns:.8fr 1.5fr;gap:45px}.titre-section h2,.projet h2{font:normal clamp(36px,5vw,54px)/1.1 Georgia,serif;letter-spacing:-1.5px;margin:18px 0}.cartes{display:grid;grid-template-columns:1fr 1fr;gap:16px}.carte{background:#fffefa;border:1px solid #e2e0d5;padding:21px}.initiales{width:42px;height:42px;display:grid;place-items:center;border-radius:50%;background:#e5e9d7;color:#42523c;font-weight:bold}.initiales.vert{background:#dce8dc}.initiales.orange{background:#f4dfd3}.initiales.bleu{background:#dce4e8}.carte h3{font-size:17px;margin:20px 0 4px}.carte .role{font-size:12px;color:#77806e;margin:0 0 12px;text-transform:capitalize}.carte>p:not(.role){font-size:13px;line-height:1.55;color:#596159;min-height:60px}.carte>a{font-size:12px;color:#426044}.projet{padding:78px 8%;background:#203c31;color:#f5f3ec}.projet .numero{color:#c6d3ac}.projet h2 span{color:#c6d3ac}.projet>p:not(.numero){max-width:560px;line-height:1.7;color:#d6ddd3;font-size:15px}.mots{display:flex;gap:10px;flex-wrap:wrap;margin-top:25px}.mots span{border:1px solid #81917a;padding:8px 13px;font-size:12px}footer{padding:22px 8%;display:flex;align-items:center;justify-content:space-between;font-size:12px;color:#657066}footer a:first-child{font-weight:bold;color:#203c31}@media(max-width:760px){.entete{padding:0 6%;min-height:650px}.navigation div{gap:14px}.navigation div a{font-size:12px}.intro{padding-top:65px}.deco{width:230px;height:230px;right:8%;top:auto;bottom:40px;opacity:.8}.deco span:nth-child(1){width:95px;height:95px}.deco span:nth-child(2){width:135px;height:110px}.deco span:nth-child(3){width:100px;height:125px}.bas-entete{left:6%}.section{padding:65px 6%}.equipe{grid-template-columns:1fr;gap:20px}.cartes{gap:10px}.carte{padding:15px}.carte>p:not(.role){min-height:90px}.projet{padding:65px 6%}footer{padding:20px 6%;gap:12px;flex-wrap:wrap}footer span{order:3;width:100%}}@media(max-width:390px){.nom-site{font-size:14px}.navigation div{gap:10px}.navigation div a{font-size:11px}.cartes{grid-template-columns:1fr}.carte>p:not(.role){min-height:0}}
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #222;
+}
+
+header {
+  background-color: #356b4d;
+  color: white;
+  padding: 15px 25px;
+}
+
+header h1 {
+  margin: 0 0 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-right: 18px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 20px 25px;
+}
+
+section {
+  margin-bottom: 28px;
+}
+
+h2 {
+  color: #356b4d;
+}
+
+li {
+  margin-bottom: 12px;
+  line-height: 1.5;
+}
+
+a {
+  color: #356b4d;
+}
+
+footer {
+  text-align: center;
+  padding: 16px;
+  color: #555;
+}
